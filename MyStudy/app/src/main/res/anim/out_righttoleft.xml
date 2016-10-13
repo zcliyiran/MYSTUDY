@@ -3,6 +3,6 @@
     <!-- 定义从右向左动画退出动画 -->
     <translate
         android:duration="500"
-        android:fromYDelta="0"
-        android:toYDelta="-100%" />
+        android:fromXDelta="0"
+        android:toXDelta="-100%" />
 </set>

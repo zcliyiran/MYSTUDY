@@ -2,8 +2,9 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="#fff" >
+    android:background="#fff"
+    android:orientation="vertical">
+
     <android.support.v7.widget.Toolbar
         android:id="@+id/toobar"
         android:layout_width="match_parent"
@@ -11,97 +12,52 @@
         android:background="?attr/colorPrimary">
 
 
-        <Button android:id="@+id/popBtn"
-            android:layout_alignParentLeft="true"
+        <TextView
+            android:id="@+id/popBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="弹出左侧菜单" />
-
+            android:layout_gravity="right"
+            android:layout_marginLeft="10dp"
+            android:text="近7天" />
     </android.support.v7.widget.Toolbar>
 
+    <!--<Button-->
+        <!--android:id="@+id/popBtn"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:text="弹出左侧菜单" />-->
+    <!--<Button android:id="@+id/popBtn"-->
+    <!--android:layout_alignParentLeft="true"-->
 
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="弹出左侧菜单"-->
+    <!--/>-->
 </RelativeLayout>
 
 
-    <!--<?xml version="1.0" encoding="utf-8"?>-->
-<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
-    <!--xmlns:tools="http://schemas.android.com/tools"-->
-    <!--android:id="@+id/activity_popwindow_leftnew"-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="match_parent"-->
-    <!--android:orientation="vertical"-->
-    <!--tools:context="com.tianxi.mystudy.mystudy.activity.second.PopwindowDemo01">-->
+    <!--<?xml version="1.0" encoding="utf-8"?>--><!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"--><!--xmlns:tools="http://schemas.android.com/tools"--><!--android:id="@+id/activity_popwindow_leftnew"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--android:orientation="vertical"--><!--tools:context="com.tianxi.mystudy.mystudy.activity.second.PopwindowDemo01">-->
 
 
-    <!--<Button-->
-        <!--android:id="@+id/open"-->
-        <!--android:layout_width="fill_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:background="@android:color/darker_gray"-->
-        <!--android:text="打开" />-->
+    <!--<Button--><!--android:id="@+id/open"--><!--android:layout_width="fill_parent"--><!--android:layout_height="wrap_content"--><!--android:background="@android:color/darker_gray"--><!--android:text="打开" />-->
 
-    <!--<Button-->
-        <!--android:id="@+id/save"-->
-        <!--android:layout_width="fill_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:background="@android:color/darker_gray"-->
-        <!--android:text="保存" />-->
+    <!--<Button--><!--android:id="@+id/save"--><!--android:layout_width="fill_parent"--><!--android:layout_height="wrap_content"--><!--android:background="@android:color/darker_gray"--><!--android:text="保存" />-->
 
-    <!--<Button-->
-        <!--android:id="@+id/close"-->
-        <!--android:layout_width="fill_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:background="@android:color/darker_gray"-->
-        <!--android:text="关闭" />-->
+    <!--<Button--><!--android:id="@+id/close"--><!--android:layout_width="fill_parent"--><!--android:layout_height="wrap_content"--><!--android:background="@android:color/darker_gray"--><!--android:text="关闭" />-->
 
 
-    <!--&lt;!&ndash;<Button&ndash;&gt;-->
-        <!--&lt;!&ndash;android:id="@+id/open"&ndash;&gt;-->
-        <!--&lt;!&ndash;android:layout_width="fill_parent"&ndash;&gt;-->
-        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
-        <!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;-->
-        <!--&lt;!&ndash;android:background="@android:color/darker_gray"&ndash;&gt;-->
-        <!--&lt;!&ndash;android:text="打开" />&ndash;&gt;-->
+    <!--&lt;!&ndash;<Button&ndash;&gt;--><!--&lt;!&ndash;android:id="@+id/open"&ndash;&gt;--><!--&lt;!&ndash;android:layout_width="fill_parent"&ndash;&gt;--><!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;--><!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;--><!--&lt;!&ndash;android:background="@android:color/darker_gray"&ndash;&gt;--><!--&lt;!&ndash;android:text="打开" />&ndash;&gt;-->
 
-    <!--&lt;!&ndash;<Button&ndash;&gt;-->
-        <!--&lt;!&ndash;android:id="@+id/save"&ndash;&gt;-->
-        <!--&lt;!&ndash;android:layout_width="fill_parent"&ndash;&gt;-->
-        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
-        <!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;-->
-        <!--&lt;!&ndash;android:background="@android:color/darker_gray"&ndash;&gt;-->
-        <!--&lt;!&ndash;android:text="保存" />&ndash;&gt;-->
+    <!--&lt;!&ndash;<Button&ndash;&gt;--><!--&lt;!&ndash;android:id="@+id/save"&ndash;&gt;--><!--&lt;!&ndash;android:layout_width="fill_parent"&ndash;&gt;--><!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;--><!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;--><!--&lt;!&ndash;android:background="@android:color/darker_gray"&ndash;&gt;--><!--&lt;!&ndash;android:text="保存" />&ndash;&gt;-->
 
-    <!--&lt;!&ndash;<Button&ndash;&gt;-->
-        <!--&lt;!&ndash;android:id="@+id/close"&ndash;&gt;-->
-        <!--&lt;!&ndash;android:layout_width="fill_parent"&ndash;&gt;-->
-        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
-        <!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;-->
-        <!--&lt;!&ndash;android:background="@android:color/darker_gray"&ndash;&gt;-->
-        <!--&lt;!&ndash;android:text="关闭" />&ndash;&gt;-->
+    <!--&lt;!&ndash;<Button&ndash;&gt;--><!--&lt;!&ndash;android:id="@+id/close"&ndash;&gt;--><!--&lt;!&ndash;android:layout_width="fill_parent"&ndash;&gt;--><!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;--><!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;--><!--&lt;!&ndash;android:background="@android:color/darker_gray"&ndash;&gt;--><!--&lt;!&ndash;android:text="关闭" />&ndash;&gt;-->
 
-    <!--&lt;!&ndash;<Button&ndash;&gt;-->
-        <!--&lt;!&ndash;android:id="@+id/open"&ndash;&gt;-->
-        <!--&lt;!&ndash;android:layout_width="fill_parent"&ndash;&gt;-->
-        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
-        <!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;-->
-        <!--&lt;!&ndash;android:background="@android:color/darker_gray"&ndash;&gt;-->
-        <!--&lt;!&ndash;android:text="打开" />&ndash;&gt;-->
+    <!--&lt;!&ndash;<Button&ndash;&gt;--><!--&lt;!&ndash;android:id="@+id/open"&ndash;&gt;--><!--&lt;!&ndash;android:layout_width="fill_parent"&ndash;&gt;--><!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;--><!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;--><!--&lt;!&ndash;android:background="@android:color/darker_gray"&ndash;&gt;--><!--&lt;!&ndash;android:text="打开" />&ndash;&gt;-->
 
-    <!--&lt;!&ndash;<Button&ndash;&gt;-->
-        <!--&lt;!&ndash;android:id="@+id/save"&ndash;&gt;-->
-        <!--&lt;!&ndash;android:layout_width="fill_parent"&ndash;&gt;-->
-        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
-        <!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;-->
-        <!--&lt;!&ndash;android:background="@android:color/darker_gray"&ndash;&gt;-->
-        <!--&lt;!&ndash;android:text="保存" />&ndash;&gt;-->
+    <!--&lt;!&ndash;<Button&ndash;&gt;--><!--&lt;!&ndash;android:id="@+id/save"&ndash;&gt;--><!--&lt;!&ndash;android:layout_width="fill_parent"&ndash;&gt;--><!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;--><!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;--><!--&lt;!&ndash;android:background="@android:color/darker_gray"&ndash;&gt;--><!--&lt;!&ndash;android:text="保存" />&ndash;&gt;-->
 
-    <!--&lt;!&ndash;<Button&ndash;&gt;-->
-        <!--&lt;!&ndash;android:id="@+id/close"&ndash;&gt;-->
-        <!--&lt;!&ndash;android:layout_width="fill_parent"&ndash;&gt;-->
-        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
-        <!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;-->
-        <!--&lt;!&ndash;android:background="@android:color/darker_gray"&ndash;&gt;-->
-        <!--&lt;!&ndash;android:text="关闭" />&ndash;&gt;-->
+    <!--&lt;!&ndash;<Button&ndash;&gt;--><!--&lt;!&ndash;android:id="@+id/close"&ndash;&gt;--><!--&lt;!&ndash;android:layout_width="fill_parent"&ndash;&gt;--><!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;--><!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;--><!--&lt;!&ndash;android:background="@android:color/darker_gray"&ndash;&gt;--><!--&lt;!&ndash;android:text="关闭" />&ndash;&gt;-->
 
-<!--</LinearLayout>-->
+    <!--</LinearLayout>-->
 

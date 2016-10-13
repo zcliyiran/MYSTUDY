@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.tianxi.mystudy.mystudy.MainActivity">
+
     <android.support.v7.widget.Toolbar
         android:id="@+id/toobar"
         android:layout_width="match_parent"
@@ -19,25 +20,35 @@
         android:id="@+id/btn01"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="popwindowDemo01" />
+        android:text="popwindowDemo01"
+        android:textAllCaps="false" />
+
     <Button
         android:id="@+id/btn02"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="popwindowDemo02" />
+        android:text="popwindowDemo02"
+        android:textAllCaps="false" />
+
     <Button
         android:id="@+id/btn03"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="popwindowDemo02" />
+        android:text="popwindowDemo02"
+        android:textAllCaps="false" />
+
     <Button
         android:id="@+id/btn04"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="popwindowDemo02" />
+        android:text="popwindowDemo02"
+
+        android:textAllCaps="false" />
+
     <Button
         android:id="@+id/btn05"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="popwindowDemo02" />
+        android:text="popwindowDemo02"
+        android:textAllCaps="false" />
 </LinearLayout>
