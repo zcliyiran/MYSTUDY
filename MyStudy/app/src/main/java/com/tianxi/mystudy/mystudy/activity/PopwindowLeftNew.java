@@ -143,4 +143,9 @@ public class PopwindowLeftNew extends AppCompatActivity {
 
     }
 
+
+    private  int add(int a){
+        int b=a+1;
+        return b;
+    }
 }

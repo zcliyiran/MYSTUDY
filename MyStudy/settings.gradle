@@ -1,1 +1,1 @@
-include ':app', ':rxandroid'
+include ':app', ':rxandroid', ':mysearch', ':searchdemo02', ':swiperefresh', ':rollviewpagerdemo', ':recycleviewdemo01', ':recycleviewdemo02', ':ultimaterecyclerview', ':testviewtest', ':headporprait', ':testshopcar', ':DbTest', ':recycleviewautoscroll', ':vpsixteenanimation', ':gestureimage'

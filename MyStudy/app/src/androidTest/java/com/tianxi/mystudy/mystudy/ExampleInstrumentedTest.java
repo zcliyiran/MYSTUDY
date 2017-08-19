@@ -23,4 +23,12 @@ public class ExampleInstrumentedTest {
 
         assertEquals("com.tianxi.mystudy.mystudy", appContext.getPackageName());
     }
+
+    @Test
+    public  void testAdd(){
+
+
+    }
+
+
 }

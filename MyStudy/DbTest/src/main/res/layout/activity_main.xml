@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp" >
+		<TextView
+            android:id="@+id/tv_ensure"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="@string/search" />
+        <EditText
+            android:id="@+id/et_username_search"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@id/tv_ensure"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext_shape"
+            android:gravity="start|center_vertical"
+            android:hint="@string/username"
+            android:textColorHint="@color/hint_text_color"
+            android:imeOptions="actionDone"
+            android:paddingLeft="20dp"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />       
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#EEEEEE" >
+    </View>
+	
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp" >
+        <EditText
+            android:id="@+id/et_username_insert"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext_shape"
+            android:gravity="start|center_vertical"
+            android:hint="@string/username"
+            android:textColorHint="@color/hint_text_color"
+            android:imeOptions="actionDone"
+            android:paddingLeft="20dp"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />       
+    </RelativeLayout>
+	
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#EEEEEE" >
+    </View>
+	
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp" >
+		<TextView
+            android:id="@+id/tv_insert"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="@string/insert" />
+        <EditText
+            android:id="@+id/et_userpwd_insert"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@id/tv_insert"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext_shape"
+            android:gravity="start|center_vertical"
+            android:hint="@string/userpwd"
+            android:textColorHint="@color/hint_text_color"
+            android:imeOptions="actionDone"
+            android:paddingLeft="20dp"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />       
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#EEEEEE" >
+    </View>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_tip"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingLeft="20dp"
+                android:gravity="left|center_vertical"
+                android:text="@string/username_database" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#EEEEEE" >
+            </View>
+
+            <ListView
+                android:id="@+id/listview_uid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#EEEEEE" /> 
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_clear_history"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/textview_clear"
+            android:gravity="center"
+            android:text="@string/clear_database" />
+
+    </LinearLayout>
+
+</LinearLayout>
