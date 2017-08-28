@@ -108,12 +108,12 @@
         "source": "/Users/admin/workspace/mygit/repository03/MyStudy/ultimaterecyclerview/build/intermediates/exploded-aar/in.srain.cube/ultra-ptr/1.0.11/res/layout/cube_ptr_simple_loading.xml"
     },
     {
-        "merged": "/Users/admin/workspace/mygit/repository03/MyStudy/ultimaterecyclerview/build/intermediates/res/merged/debug/layout/horizontal_recycler_view.xml",
-        "source": "/Users/admin/workspace/mygit/repository03/MyStudy/ultimaterecyclerview/src/main/res/layout/horizontal_recycler_view.xml"
-    },
-    {
         "merged": "/Users/admin/workspace/mygit/repository03/MyStudy/ultimaterecyclerview/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
         "source": "/Users/admin/workspace/mygit/repository03/MyStudy/ultimaterecyclerview/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/Users/admin/workspace/mygit/repository03/MyStudy/ultimaterecyclerview/build/intermediates/res/merged/debug/layout/horizontal_recycler_view.xml",
+        "source": "/Users/admin/workspace/mygit/repository03/MyStudy/ultimaterecyclerview/src/main/res/layout/horizontal_recycler_view.xml"
     },
     {
         "merged": "/Users/admin/workspace/mygit/repository03/MyStudy/ultimaterecyclerview/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",

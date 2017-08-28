@@ -1,17 +1,17 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 26
-    buildToolsVersion "26.0.0"
+    compileSdkVersion 23
+    buildToolsVersion "25.0.0"
 
     defaultConfig {
         applicationId "com.example.threelinkage"
         minSdkVersion 15
-        targetSdkVersion 26
+        targetSdkVersion 23
         versionCode 1
         versionName "1.0"
 
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+//        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
     }
     buildTypes {
@@ -24,10 +24,15 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
-        exclude group: 'com.android.support', module: 'support-annotations'
-    })
-    compile 'com.android.support:appcompat-v7:26.+'
-    compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha8'
+
+    compile 'com.android.support:appcompat-v7:23.4.0'
     testCompile 'junit:junit:4.12'
+//    compile 'com.bigkoo:pickerview:2.0.8'
+    compile 'com.contrarywind:Android-PickerView:3.2.6'
+    //https://github.com/Bigkoo/Android-PickerView 开源文档
+    compile 'com.google.code.gson:gson:2.7'
+
+//    compile 'com.alibaba:fastjson:1.2.10'// 阿里巴巴的
+
+
 }

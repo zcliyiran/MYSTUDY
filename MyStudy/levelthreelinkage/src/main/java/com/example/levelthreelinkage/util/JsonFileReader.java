@@ -1,16 +1,12 @@
-package com.sensor.zhangpan.mypickerview;
+package com.example.levelthreelinkage.util;
 
 import android.content.Context;
 import android.content.res.AssetManager;
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
+
 import java.io.BufferedInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by zhangpan on 2016/7/2.

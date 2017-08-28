@@ -1,4 +1,4 @@
-package com.example.threelinkage;
+package com.example.threelinkage.util;
 
 import android.content.Context;
 import android.content.res.AssetManager;

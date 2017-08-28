@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DbTest/DbTest.iml" filepath="$PROJECT_DIR$/DbTest/DbTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyStudy.iml" filepath="$PROJECT_DIR$/MyStudy.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/gestureimage/gestureimage.iml" filepath="$PROJECT_DIR$/gestureimage/gestureimage.iml" />
-      <module fileurl="file://$PROJECT_DIR$/headporprait/headporprait.iml" filepath="$PROJECT_DIR$/headporprait/headporprait.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mysearch/mysearch.iml" filepath="$PROJECT_DIR$/mysearch/mysearch.iml" />
-      <module fileurl="file://$PROJECT_DIR$/recycleviewautoscroll/recycleviewautoscroll.iml" filepath="$PROJECT_DIR$/recycleviewautoscroll/recycleviewautoscroll.iml" />
-      <module fileurl="file://$PROJECT_DIR$/recycleviewdemo01/recycleviewdemo01.iml" filepath="$PROJECT_DIR$/recycleviewdemo01/recycleviewdemo01.iml" />
-      <module fileurl="file://$PROJECT_DIR$/recycleviewdemo02/recycleviewdemo02.iml" filepath="$PROJECT_DIR$/recycleviewdemo02/recycleviewdemo02.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rollviewpagerdemo/rollviewpagerdemo.iml" filepath="$PROJECT_DIR$/rollviewpagerdemo/rollviewpagerdemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rxandroid/rxandroid.iml" filepath="$PROJECT_DIR$/rxandroid/rxandroid.iml" />
-      <module fileurl="file://$PROJECT_DIR$/searchdemo02/searchdemo02.iml" filepath="$PROJECT_DIR$/searchdemo02/searchdemo02.iml" />
-      <module fileurl="file://$PROJECT_DIR$/swiperefresh/swiperefresh.iml" filepath="$PROJECT_DIR$/swiperefresh/swiperefresh.iml" />
-      <module fileurl="file://$PROJECT_DIR$/testshopcar/testshopcar.iml" filepath="$PROJECT_DIR$/testshopcar/testshopcar.iml" />
-      <module fileurl="file://$PROJECT_DIR$/testviewtest/testviewtest.iml" filepath="$PROJECT_DIR$/testviewtest/testviewtest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ultimaterecyclerview/ultimaterecyclerview.iml" filepath="$PROJECT_DIR$/ultimaterecyclerview/ultimaterecyclerview.iml" />
-      <module fileurl="file://$PROJECT_DIR$/vpsixteenanimation/vpsixteenanimation.iml" filepath="$PROJECT_DIR$/vpsixteenanimation/vpsixteenanimation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/threelinkage/threelinkage.iml" filepath="$PROJECT_DIR$/threelinkage/threelinkage.iml" />
     </modules>
   </component>
 </project>

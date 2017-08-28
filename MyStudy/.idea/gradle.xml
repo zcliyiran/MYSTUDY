@@ -8,22 +8,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/DbTest" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/gestureimage" />
-            <option value="$PROJECT_DIR$/headporprait" />
-            <option value="$PROJECT_DIR$/mysearch" />
-            <option value="$PROJECT_DIR$/recycleviewautoscroll" />
-            <option value="$PROJECT_DIR$/recycleviewdemo01" />
-            <option value="$PROJECT_DIR$/recycleviewdemo02" />
-            <option value="$PROJECT_DIR$/rollviewpagerdemo" />
-            <option value="$PROJECT_DIR$/rxandroid" />
-            <option value="$PROJECT_DIR$/searchdemo02" />
-            <option value="$PROJECT_DIR$/swiperefresh" />
-            <option value="$PROJECT_DIR$/testshopcar" />
-            <option value="$PROJECT_DIR$/testviewtest" />
-            <option value="$PROJECT_DIR$/ultimaterecyclerview" />
-            <option value="$PROJECT_DIR$/vpsixteenanimation" />
+            <option value="$PROJECT_DIR$/threelinkage" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
