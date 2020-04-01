@@ -1,0 +1,10 @@
+<persons>
+    <person id="28">
+        <name>bo</name>
+        <age>28</age>
+    </person>
+    <person id="29">
+        <name>xiaohong</name>
+        <age>21</age>
+    </person>
+</persons>
