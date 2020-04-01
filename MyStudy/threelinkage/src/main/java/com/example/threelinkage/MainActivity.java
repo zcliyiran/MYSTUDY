@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-//                pvOptions.show();
+                pvOptions.show();
 //               List<MyJsonBean> list= new ArrayList<>();
 
                 //对于无数组的
